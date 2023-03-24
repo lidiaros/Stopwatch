@@ -1,0 +1,42 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#container {
+  height: 100vh;
+  width: 100vw;
+  background-color: #fffff0;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+}
+p {
+  display: flex;
+  justify-content: center;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+.padding-time {
+  padding: 4px;
+}
+.border-none {
+  border: none;
+}
+.button-size {
+  padding: 15px 32px;
+}
+.bg-color {
+  background-color: #bcbc82;
+}
+.hover:hover {
+  color: #6b8e23;
+}
+.bold {
+  font-weight: bold;
+}
