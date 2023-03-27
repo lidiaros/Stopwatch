@@ -35,8 +35,18 @@ p {
   background-color: #bcbc82;
 }
 .hover:hover {
-  color: #6b8e23;
+  color: #ffffe0;
+  transition: 0.5s;
 }
 .bold {
   font-weight: bold;
+}
+.border-radius {
+  border-radius: 15px;
+}
+.italic {
+  font-style: italic;
+  font-weight: lighter;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
