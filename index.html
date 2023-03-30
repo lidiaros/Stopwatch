@@ -5,35 +5,41 @@
     <title>Stopwatch</title>
     <link rel="x-icon" href="./images.png" type="image/x-icon" />
     <link rel="stylesheet" href="./main.css" />
-    <script src="./main.js"></script>
   </head>
 
   <body id="container">
     <h1>LIDIA STOPWATCH</h1>
     <h2 class="italic">Take your time</h2>
 
-    <p class="padding-time">
+    <p id="timer" class="padding-time">
       <span id="seconds">00</span>
       :
       <span id="tens">00</span>
     </p>
 
-    <div class="buttons">
+    <div id="buttons">
       <button
+        id="start-button"
         class="border-none button-size bg-color txt-color hover bold border-radius"
       >
         START
       </button>
+
       <button
+        id="stop-button"
         class="border-none button-size bg-color txt-color hover bold border-radius"
       >
         STOP
       </button>
+
       <button
+        id="reset-button"
         class="border-none button-size bg-color txt-color hover bold border-radius"
       >
         RESET
       </button>
     </div>
+
+    <script src="./main.js"></script>
   </body>
 </html>
